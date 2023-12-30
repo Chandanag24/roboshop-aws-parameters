@@ -1,8 +1,9 @@
 terraform {
   backend "s3" {
     bucket = "tf-state-dvp"
-    key    = "aws-parameters/terraform.tfstate"
+    key    = "aws-parameters/terrafm.tfstate"
     region = "us-east-1"
+
   }
   }
 
